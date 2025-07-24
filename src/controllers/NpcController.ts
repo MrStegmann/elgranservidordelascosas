@@ -28,6 +28,8 @@ export class NpcController {
   private async createNpc(data: INpc, callback: Function) {
     try {
       const created = new Npc(data);
+      console.log(data);
+      console.log(created);
       const savedCreated = await created.save();
       await savedCreated.populate("spells");
       await savedCreated.populate("skills");

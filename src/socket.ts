@@ -21,7 +21,6 @@ export class SocketServer {
     await db.connect();
 
     this.io.on("connection", (socket: Socket) => {
-      console.log("Nuevo cliente conectado");
       new Authware(socket);
 
       const userController = new UserController(socket);
