@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Buena compatibilidad moderna
+    "module": "CommonJS", // Necesario para Node.js con require/import
+    "moduleResolution": "node",
+    "outDir": "./dist", // Carpeta donde se compila el código
+    "rootDir": "./src", // Carpeta de tu código fuente
+    "esModuleInterop": true, // Permite importaciones modernas
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // Activar chequeo estricto
+    "skipLibCheck": true, // Más rápido, evita errores en node_modules
+    "resolveJsonModule": true, // Para poder importar JSON
+    "types": ["node"], // Tipos base de Node.js
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false // Puedes ponerlo en true para forzar tipado
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
