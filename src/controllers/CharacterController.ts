@@ -54,9 +54,9 @@ export class CharacterController {
     }
   }
 
-  private async deleteCharacter(id: string, callback: Function) {
+  private async deleteCharacter(data: string, callback: Function) {
     try {
-      const deleted = await Character.findByIdAndDelete(id);
+      const deleted = await Character.findByIdAndDelete(data);
       if (!deleted) throw new Error("Character not found");
       callback({ success: true });
     } catch (error) {

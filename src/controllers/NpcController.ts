@@ -28,8 +28,6 @@ export class NpcController {
   private async createNpc(data: INpc, callback: Function) {
     try {
       const created = new Npc(data);
-      console.log(data);
-      console.log(created);
       const savedCreated = await created.save();
       await savedCreated.populate("spells");
       await savedCreated.populate("skills");
@@ -53,9 +51,9 @@ export class NpcController {
     }
   }
 
-  private async deleteNpc(id: string, callback: Function) {
+  private async deleteNpc(data: string, callback: Function) {
     try {
-      const deleted = await Npc.findByIdAndDelete(id);
+      const deleted = await Npc.findByIdAndDelete(data);
       if (!deleted) throw new Error("Npc not found");
       callback({ success: true });
     } catch (error: any) {

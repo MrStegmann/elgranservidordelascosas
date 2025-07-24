@@ -46,9 +46,9 @@ export class OneShotController {
     }
   }
 
-  private async deleteOneShot(id: string, callback: Function) {
+  private async deleteOneShot(data: string, callback: Function) {
     try {
-      const deleted = await OneShot.findByIdAndDelete(id);
+      const deleted = await OneShot.findByIdAndDelete(data);
       if (!deleted) throw new Error("OneShot not found");
       callback({ success: true });
     } catch (error) {

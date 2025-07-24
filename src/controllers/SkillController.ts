@@ -46,9 +46,9 @@ export class SkillController {
     }
   }
 
-  private async deleteSkill(id: string, callback: Function) {
+  private async deleteSkill(data: string, callback: Function) {
     try {
-      const deleted = await Skill.findByIdAndDelete(id);
+      const deleted = await Skill.findByIdAndDelete(data);
       if (!deleted) throw new Error("Skill not found");
       callback({ success: true });
     } catch (error) {

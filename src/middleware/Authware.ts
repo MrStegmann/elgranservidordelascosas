@@ -64,7 +64,7 @@ export class Authware {
 
           // Puedes extender esto si deseas pasar el usuario como 3er argumento
           if (Object.keys(rest).length > 0) {
-            return handler(rest, callback);
+            return handler(rest.data, callback);
           } else {
             return handler(callback);
           }

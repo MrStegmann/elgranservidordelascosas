@@ -46,9 +46,9 @@ export class ItemController {
     }
   }
 
-  private async deleteItem(id: string, callback: Function) {
+  private async deleteItem(data: string, callback: Function) {
     try {
-      const deleted = await Item.findByIdAndDelete(id);
+      const deleted = await Item.findByIdAndDelete(data);
       if (!deleted) throw new Error("Item not found");
       callback({ success: true });
     } catch (error) {

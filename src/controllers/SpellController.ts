@@ -46,9 +46,9 @@ export class SpellController {
     }
   }
 
-  private async deleteSpell(id: string, callback: Function) {
+  private async deleteSpell(data: string, callback: Function) {
     try {
-      const deleted = await Spell.findByIdAndDelete(id);
+      const deleted = await Spell.findByIdAndDelete(data);
       if (!deleted) throw new Error("Spell not found");
       callback({ success: true });
     } catch (error) {
