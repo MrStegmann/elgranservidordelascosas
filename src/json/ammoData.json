@@ -1,0 +1,93 @@
+{
+  "arrow": {
+    "wood": {
+      "costUnit": "0c",
+      "damage": 0,
+      "costPack": "0c"
+    },
+    "stone": {
+      "costUnit": "0c",
+      "damage": 1,
+      "costPack": "0c"
+    },
+    "bronze": {
+      "costUnit": "20c",
+      "damage": 2,
+      "costPack": "8p"
+    },
+    "iron": {
+      "costUnit": "50c",
+      "damage": 3,
+      "costPack": "20p"
+    },
+    "steel": {
+      "costUnit": "10p",
+      "damage": 4,
+      "costPack": "4o"
+    },
+    "mithril": {
+      "costUnit": "40p",
+      "damage": 4,
+      "costPack": "16o"
+    }
+  },
+  "virote": {
+    "wood": {
+      "costUnit": "0c",
+      "damage": 0,
+      "costPack": "0c"
+    },
+    "stone": {
+      "costUnit": "0c",
+      "damage": 1,
+      "costPack": "0c"
+    },
+    "bronze": {
+      "costUnit": "23c",
+      "damage": 2,
+      "costPack": "9p:20c"
+    },
+    "iron": {
+      "costUnit": "57c",
+      "damage": 3,
+      "costPack": "22p:80c"
+    },
+    "steel": {
+      "costUnit": "12p",
+      "damage": 4,
+      "costPack": "4o:88p"
+    },
+    "mithril": {
+      "costUnit": "46p",
+      "damage": 6,
+      "costPack": "18o:40p"
+    }
+  },
+  "bullet": {
+    "lead": {
+      "costUnit": "20c",
+      "damage": 1,
+      "costPack": "8p"
+    },
+    "bronze": {
+      "costUnit": "35c",
+      "damage": 2,
+      "costPack": "10p:50c"
+    },
+    "iron": {
+      "costUnit": "86c",
+      "damage": 3,
+      "costPack": "25p:80c"
+    },
+    "steel": {
+      "costUnit": "18p",
+      "damage": 4,
+      "costPack": "5o:40p"
+    },
+    "mithril": {
+      "costUnit": "69p",
+      "damage": 6,
+      "costPack": "20o:70p"
+    }
+  }
+}

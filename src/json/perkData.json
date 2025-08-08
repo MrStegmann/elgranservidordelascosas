@@ -1,0 +1,275 @@
+{
+  "positive": [
+    {
+      "Nombre": "Talentoso",
+      "Descripción": "Mejora un talento de tu elección sin restricciones.",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "3"
+    },
+    {
+      "Nombre": "Atlético/a",
+      "Descripción": "Mejora el talento de Atletismo. Al nivel tres, también mejora Acrobacias",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "At+2\nAc+1"
+    },
+    {
+      "Nombre": "Robusto/a",
+      "Descripción": "Mejora el talento de DR. Al nivel 3, da un extra de vida.",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "DR +2\nHP +5"
+    },
+    {
+      "Nombre": "Vista aguda",
+      "Descripción": "Mejora la percepción siempre y cuando se realice usando el sentido de la vista. A nivel 3 mejora Armas Distancia.",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "Per +2\nArmD +1"
+    },
+    {
+      "Nombre": "Inquebrantable",
+      "Descripción": "Mejora el talento de Res. Pér. Control.",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "3"
+    },
+    {
+      "Nombre": "Resiliente",
+      "Descripción": "Mejora el talento de Resiliencia. Al nivel 3, mejora a la Fortaleza.",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "Re +2\nFor +1"
+    },
+    {
+      "Nombre": "Ambidiestro/a ágil",
+      "Descripción": "Elimina la penalización al nivel 1 de las armas finas. En el resto de niveles, suma al ataque.",
+      "Nivel 1": "",
+      "Nivel 2": "1",
+      "Nivel 3": "2"
+    },
+    {
+      "Nombre": "Ambidiestro/a robusto",
+      "Descripción": "Al nivel 1 reduce a la mitad la penalización por doble empuñadura de armas de 1 y 2 manos.",
+      "Nivel 1": "",
+      "Nivel 2": "1",
+      "Nivel 3": "2"
+    },
+    {
+      "Nombre": "Ágil",
+      "Descripción": "Mejora el talento de Def. Ágil.\nA nivel 3, mejora Acrobacias",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "DA +2\nAcr +1"
+    },
+    {
+      "Nombre": "Cabezota",
+      "Descripción": "Mejora el talento de Res. Atur.\nAl nivel 3, mejora Res. Derr.",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "ReA+2\nReD+1"
+    },
+    {
+      "Nombre": "Ambidiestro/a",
+      "Descripción": "Reduce la penalización de la mano inhábil, permitiendo hacer más de un ataque por ronda.",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "3"
+    },
+    {
+      "Nombre": "Oído agudo",
+      "Descripción": "Mejora el talento de Percepción cuando se realiza utilizando el sentido del oído.",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "3"
+    },
+    {
+      "Nombre": "Visión nocturna",
+      "Descripción": "Reduce la penalización por Oscuridad.",
+      "Nivel 1": "1",
+      "Nivel 2": "3",
+      "Nivel 3": "5"
+    },
+    {
+      "Nombre": "Suertudo",
+      "Descripción": "Una vez por objetivo, si logras hacer un crítico exitoso, puedes atacar o sanar una segunda vez al mismo objetivo. (Se siguen aplicando todas las reglas establecidas para un ataque normal)",
+      "Nivel 1": "",
+      "Nivel 2": "",
+      "Nivel 3": ""
+    },
+    {
+      "Nombre": "Hechicero",
+      "Descripción": "Mejora un talento de la rama de INT. (Se debe seleccionar)\nAl nivel 3, reduce el coste de maná de los hechizos de ese talento.",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "TAL +2\nManá -1"
+    },
+    {
+      "Nombre": "Maestro de armas",
+      "Descripción": "Mejora todos los talentos armas cuerpo a cuerpo. (Sigue aplicandose la penalización por doble empuñadura)",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "3"
+    },
+    {
+      "Nombre": "Bello/a",
+      "Descripción": "Los NPC preferirán tratar contigo antes que cualquier otro.\nLos NPC se fijarán más en ti.\nMejora el talento de Seducción.",
+      "Nivel 1": "1",
+      "Nivel 2": "2",
+      "Nivel 3": "3"
+    },
+    {
+      "Nombre": "Veloz",
+      "Descripción": "No puedes ser objetivo de agarres ni efectos de enraizado.",
+      "Nivel 1": "",
+      "Nivel 2": "",
+      "Nivel 3": ""
+    },
+    {
+      "Nombre": "Táctico/a",
+      "Descripción": "Una vez por ronda, te permite elegir en qué momento actúas, independientemente del órden de los turnos.",
+      "Nivel 1": "",
+      "Nivel 2": "",
+      "Nivel 3": ""
+    },
+    {
+      "Nombre": "Aventajado/a",
+      "Descripción": "Dispone de una acción extra.\nSe siguen aplicando todas las reglas establecidas para las acciones.",
+      "Nivel 1": "",
+      "Nivel 2": "",
+      "Nivel 3": ""
+    },
+    {
+      "Nombre": "Corredor/a",
+      "Descripción": "Aumenta la distancia normal de Movimiento del personaje. (Metros).",
+      "Nivel 1": "5",
+      "Nivel 2": "7",
+      "Nivel 3": "10"
+    },
+    {
+      "Nombre": "Buen aprendiz",
+      "Descripción": "Reduce en 1 la dificultad de las tiradas en cada nivel en la categoría de Novato.\n... (Falta la información completa en el CSV)",
+      "Nivel 1": "",
+      "Nivel 2": "",
+      "Nivel 3": ""
+    }
+  ],
+  "negative": [
+    {
+      "Nombre": "Inútil",
+      "Descripción": "Penaliza un talento de tu elección sin restricciones.",
+      "Efectos": "-3"
+    },
+    {
+      "Nombre": "Débil",
+      "Descripción": "Penaliza los talentos de Fortaleza y Def. Robusta",
+      "Efectos": "Fort -2\nDR -1"
+    },
+    {
+      "Nombre": "Enfermizo/a",
+      "Descripción": "Penaliza la resiliencia y la cantidad de vida.",
+      "Efectos": "Res -2\nHP -5"
+    },
+    {
+      "Nombre": "Ruidoso",
+      "Descripción": "Penaliza el talento de sigilo.",
+      "Efectos": "-3"
+    },
+    {
+      "Nombre": "Despistado",
+      "Descripción": "Penaliza los talentos de Percepción y Percepción Mágica",
+      "Efectos": "-3"
+    },
+    {
+      "Nombre": "Torpe",
+      "Descripción": "Penaliza los talentos de Juego de manos y todos los de Armas",
+      "Efectos": "Juego de manos-2\nArmas -2"
+    },
+    {
+      "Nombre": "Indeciso",
+      "Descripción": "No puede atacar o curar al mismo objetivo dos turnos seguidos",
+      "Efectos": ""
+    },
+    {
+      "Nombre": "Vengativo",
+      "Descripción": "Hasta que muera el primer enemigo que te ataque, sólo atacarás a ese enemigo.",
+      "Efectos": ""
+    },
+    {
+      "Nombre": "Fobia",
+      "Descripción": "Elige un tipo de fobia para el personaje. Cada vez que te enfrentes a tu fobia, recibirás una penalización a todas tus tiradas.",
+      "Efectos": "-3"
+    },
+    {
+      "Nombre": "Cateto/a",
+      "Descripción": "Penaliza todas las tiradas mágicas.",
+      "Efectos": "-3"
+    },
+    {
+      "Nombre": "Sordera",
+      "Descripción": "Penaliza el talento de Percepción siempre que implique el sentido del oído.",
+      "Efectos": "-3"
+    },
+    {
+      "Nombre": "Mentalidad frágil",
+      "Descripción": "Penaliza el talento de Res. Pérdida de control",
+      "Efectos": "-3"
+    },
+    {
+      "Nombre": "Corto de miras",
+      "Descripción": "Penaliza el talento de Percepción siempre que implique el sentido de la vista.\nPenaliza los ataques a distancia.",
+      "Efectos": "Per -2\nAtq. Dis -2"
+    },
+    {
+      "Nombre": "Tuerto",
+      "Descripción": "Te falta un ojo.",
+      "Efectos": "Per -5\nAtqD -5"
+    },
+    {
+      "Nombre": "Miedica",
+      "Descripción": "Penaliza las tiradas de Resistencia a la Pérdida de Control. Para evitar esto, podrás lanzar un d20 VOL + Resistencia a la Pérdida de Control. Si superas o iguales 15 lo evitas.",
+      "Efectos": ""
+    },
+    {
+      "Nombre": "Alcohólico/a",
+      "Descripción": "Siempre necesitas un trago, sea cual sea la situación, sea cual sea el momento, siempre necesitas beber. Cuando no bebes durante demasiado tiempo, recibes una penalización de -3 a cualquier acción.",
+      "Efectos": ""
+    },
+    {
+      "Nombre": "Adefesio",
+      "Descripción": "Eres tan feo que de pequeño te ponían a dormir con los cerdos.\nLos NPC preferirán ignorarte antes que tener una conversación contigo.\nSerás recordado por lo horrible que eres.\n-3 a seducción.",
+      "Efectos": ""
+    },
+    {
+      "Nombre": "Traidor",
+      "Descripción": "No es que tengas nada en contra de tus compañeros, es que los otros pagan mejor.\nSiempre que se te ofrezca una suma importante para tu personaje, no tendrás dudas a la hora de dejarlos de lado.\nElige algo por lo que tu personaje aceptaría sin dudar cambiar de bando.",
+      "Efectos": ""
+    },
+    {
+      "Nombre": "Cojera",
+      "Descripción": "Reduce a la mitad el Movimiento base del personaje.",
+      "Efectos": ""
+    },
+    {
+      "Nombre": "Frágil",
+      "Descripción": "Penaliza el talento de Resistencia Mágica y la efectividad de cualquier defensa mágica.",
+      "Efectos": "-2 RM\n-1 Def. Mágica con hechizos."
+    },
+    {
+      "Nombre": "Sanguijuela de maná",
+      "Descripción": "Te deleitas con la energía de otros, lo degustas como si fuera un buen vino. Siempre que sea posible, robarás la energía a la persona más cercana (amigo o enemigo, la verdad es que te da igual) para lanzar tus hechizos.",
+      "Efectos": ""
+    },
+    {
+      "Nombre": "Asalvajado",
+      "Descripción": "Penaliza todas las tiradas del personaje en zonas urbanas.",
+      "Efectos": "-3"
+    },
+    {
+      "Nombre": "Desastroso",
+      "Descripción": "La dificultad de los éxitos aumenta en 2 en la categoría Novato.\nEn categoría Normal en 1.",
+      "Efectos": ""
+    }
+  ]
+}

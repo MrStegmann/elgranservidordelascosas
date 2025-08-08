@@ -1,0 +1,44 @@
+{
+  "Suf": {
+    "name": "Superfuerza",
+    "description": [
+      "Aumenta el daño de las armas finas, armas 1 mano, armas 2 manos en +2.",
+      "Los golpes acertados o los defendidos con DR provocan posibilidad de Derribo frente a los que no tengan Superfuerza.",
+      "No puede quedar agarrado por alguien que no tenga Superfuerza."
+    ]
+  },
+  "ASup": {
+    "name": "Audición Superior",
+    "description": [
+      "Duplica el rango de percepción auditiva.",
+      "Los sonidos fuertes cercanos aturden durante algunos turnos (a interpretación del máster)"
+    ]
+  },
+  "VNoc": {
+    "name": "Visión noctura",
+    "description": [
+      "No recibe penalización por Oscuridad.",
+      "Esto no se aplica a penalizadores por reducida visibilidad (niebla o humo)"
+    ]
+  },
+  "Prest": {
+    "name": "Prestidigitador",
+    "description": ["Permite lanzar dos hechizos Truco en un solo ataque."]
+  },
+  "RdMiem": {
+    "name": "Reemplazo de miembros",
+    "description": [
+      "Permite reemplazar miembros del cuerpo tras haberlos perdido."
+    ]
+  },
+  "GMov": {
+    "name": "Gran movilidad",
+    "description": ["Pueden moverse el doble de metros que otras razas."]
+  },
+  "Reg": {
+    "name": "Regeneración",
+    "description": [
+      "Puede recuperar puntos de vida en un tiempo determinado o al final de cada ronda"
+    ]
+  }
+}

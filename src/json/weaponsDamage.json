@@ -1,0 +1,27 @@
+{
+  "thin": {
+    "talent": "AF",
+    "minDamage": 3,
+    "maxDamage": 8
+  },
+  "oneHand": {
+    "talent": "AtC1",
+    "minDamage": 4,
+    "maxDamage": 9
+  },
+  "twoHand": {
+    "talent": "AtC2",
+    "minDamage": 5,
+    "maxDamage": 10
+  },
+  "lightRange": {
+    "talent": "ADL",
+    "minDamage": 2,
+    "maxDamage": 5
+  },
+  "heavyRange": {
+    "talent": "ADP",
+    "minDamage": 3,
+    "maxDamage": 6
+  }
+}

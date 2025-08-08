@@ -1,0 +1,33 @@
+{
+  "light": {
+    "durability": 5,
+    "minPhysicalRedux": 1,
+    "maxPhysicalRedux": 5
+  },
+  "medium": {
+    "durability": 10,
+    "minPhysicalRedux": 2,
+    "maxPhysicalRedux": 6,
+    "requires": {
+      "br": 1
+    },
+    "penal": {
+      "DA": 1,
+      "Ac": 1
+    }
+  },
+  "heavy": {
+    "durability": 15,
+    "minPhysicalRedux": 3,
+    "maxPhysicalRedux": 7,
+    "requires": {
+      "br": 3
+    },
+    "penal": {
+      "DA": 4,
+      "Ac": 4,
+      "At": 4,
+      "movement": 2
+    }
+  }
+}
