@@ -1,4 +1,7 @@
 {
+  "unnarmed": {
+    "minDamage": 1
+  },
   "thin": {
     "talent": "AF",
     "minDamage": 3,

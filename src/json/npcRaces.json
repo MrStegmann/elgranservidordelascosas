@@ -1,0 +1,302 @@
+
+[
+    {
+        "id": "humm",
+      "race": "Humano",
+      "plus": {
+        "strength": 0,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 1,
+        "wisdom": 0,
+        "charisma": 2
+      },
+      "penal": {
+        "strength": 0,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 2,
+        "constitution": 0,
+        "wisdom": 1,
+        "charisma": 0
+      },
+      "special": null
+    },
+    {
+        "id": "dwar",
+      "race": "Enanos",
+      "plus": {
+                "strength": 1,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 2,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 0,
+        "dexterity": 2,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 1
+      },
+      "special": null
+    },
+    {
+        "id": "gnom",
+      "race": "Gnomos",
+      "plus": {
+                "strength": 0,
+        "dexterity": 0,
+        "intelligence": 2,
+        "willpower": 1,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 0,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 3,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "special": null
+    },
+    {
+        "id": "kald",
+      "race": "Kaldoreis",
+      "plus": {
+                "strength": 0,
+        "dexterity": 2,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 1,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 0,
+        "dexterity": 0,
+        "intelligence": 1,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 2
+      },
+      "special": ["VNoc", "ASup"]
+    },
+    {
+        "id": "drae",
+      "race": "Draeneis",
+      "plus": {
+                "strength": 0,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 2,
+        "constitution": 0,
+        "wisdom": 1,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 0,
+        "dexterity": 1,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 2
+      },
+      "special": null
+    },
+    {
+        "id": "quel",
+      "race": "Quel'doreis",
+      "plus": {
+                "strength": 0,
+        "dexterity": 0,
+        "intelligence": 2,
+        "willpower": 1,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 1,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 2,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "special": ["ASup"]
+    },
+    {
+        "id": "orc",
+      "race": "Orcos",
+      "plus": {
+               "strength": 2,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 1,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 0,
+        "dexterity": 2,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 1
+      },
+      "special": ["Suf"]
+    },
+    {
+        "id": "taur",
+      "race": "Tauren",
+      "plus": {
+                "strength": 1,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 2,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 0,
+        "dexterity": 2,
+        "intelligence": 1,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "special": ["Suf"]
+    },
+    {
+        "id": "unde",
+      "race": "No-muerto",
+      "plus": {
+                "strength": 0,
+        "dexterity": 2,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 1,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 1,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 2
+      },
+      "special": ["RdMiem"]
+    },
+    {
+        "id": "sind",
+      "race": "Sin'dorei",
+      "plus": {
+                "strength": 0,
+        "dexterity": 1,
+        "intelligence": 2,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 2,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 1,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "special": ["ASup"]
+    },
+    {
+        "id": "gobl",
+      "race": "Goblins",
+      "plus": {
+                "strength": 0,
+        "dexterity": 1,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 2
+      },
+      "penal": {
+                "strength": 1,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 2,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "special": null
+    },
+    {
+        "id": "vryk",
+      "race": "Vrykul",
+      "plus": {
+                "strength": 2,
+        "dexterity": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "constitution": 1,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 0,
+        "dexterity": 2,
+        "intelligence": 0,
+        "willpower": 1,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "special": ["Suf"]
+    },
+    {
+        "id": "pand",
+      "race": "Pandaren",
+      "plus": {
+                "strength": 0,
+        "dexterity": 1,
+        "intelligence": 0,
+        "willpower": 2,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 0
+      },
+      "penal": {
+                "strength": 0,
+        "dexterity": 0,
+        "intelligence": 2,
+        "willpower": 0,
+        "constitution": 0,
+        "wisdom": 0,
+        "charisma": 1
+      },
+      "special": null
+    }
+]

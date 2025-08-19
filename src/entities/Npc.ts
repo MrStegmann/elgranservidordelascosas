@@ -2,6 +2,8 @@ import mongoose, { Schema, Document, Types } from "mongoose";
 
 export interface INpc extends Document {
   name?: string;
+  race?:number;
+  special?: String[];
   level?: number;
   category?: string;
   strength?: number;
@@ -18,6 +20,8 @@ export interface INpc extends Document {
 
 const npcSchema = new Schema<INpc>({
   name: { type: String },
+  race: {type: String },
+  special: { type: Array},
   level: { type: Number },
   category: { type: String },
   strength: { type: Number },
