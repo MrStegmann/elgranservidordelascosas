@@ -1,168 +1,150 @@
 {
-  "ally": [
-    {
-      "race": "Humano",
-      "plus": {
-        "adapt": 1,
-        "Dip": 1,
-        "ReA": 1
-      },
-      "penal": {
-        "RePC": 2,
-        "Re": 1
-      },
-      "special": null
+  "human": {
+    "plus": {
+      "adapt": 1,
+      "Dip": 1,
+      "ReA": 1
     },
-    {
-      "race": "Enanos",
-      "plus": {
-        "ReF": 1,
-        "Br": 1,
-        "DR": 1
-      },
-      "penal": {
-        "JdM": 1,
-        "Dip": 2
-      },
-      "special": null
+    "penal": {
+      "RePC": 2,
+      "Re": 1
     },
-    {
-      "race": "Gnomos",
-      "plus": {
-        "perf": 1,
-        "JdM": 1,
-        "RM": 1
-      },
-      "penal": {
-        "HP": 2,
-        "Re": 1
-      },
-      "special": null
+    "special": null
+  },
+  "dwarf": {
+    "plus": {
+      "ReF": 1,
+      "Br": 1,
+      "DR": 1
     },
-    {
-      "race": "Kaldoreis",
-      "plus": {
-        "Si": 1,
-        "CNa": 2
-      },
-      "penal": {
-        "Arc": 1,
-        "Com": 2
-      },
-      "special": ["VNoc", "ASup"]
+    "penal": {
+      "JdM": 1,
+      "Dip": 2
     },
-    {
-      "race": "Draeneis",
-      "plus": {
-        "Joy": 1,
-        "Fe": 2
-      },
-      "penal": {
-        "CE": 2,
-        "Si": 1
-      },
-      "special": null
+    "special": null
+  },
+  "gnome": {
+    "plus": {
+      "perf": 1,
+      "JdM": 1,
+      "RM": 1
     },
-    {
-      "race": "Quel'doreis",
-      "plus": {
-        "RM": 2,
-        "Arc": 1
-      },
-      "penal": {
-        "Br": 1,
-        "DR": 2
-      },
-      "special": ["ASup"]
-    }
-  ],
-  "horde": [
-    {
-      "race": "Orcos",
-      "plus": {
-        "Br": 1,
-        "CE": 2
-      },
-      "penal": {
-        "Si": 2,
-        "DA": 1
-      },
-      "special": ["Suf"]
+    "penal": {
+      "HP": 2,
+      "Re": 1
     },
-    {
-      "race": "Tauren",
-      "plus": {
-        "Fo": 2,
-        "CNa": 1
-      },
-      "penal": {
-        "DA": 2,
-        "Si": 1
-      },
-      "special": ["Suf"]
+    "special": null
+  },
+  "kaldorei": {
+    "plus": {
+      "Si": 1,
+      "CNa": 2
     },
-    {
-      "race": "No-muerto",
-      "plus": {
-        "RePC": 2,
-        "Alq": 1
-      },
-      "penal": {
-        "Dip": 2,
-        "RdM": 1
-      },
-      "special": ["RdMiem"]
+    "penal": {
+      "Arc": 1,
+      "Com": 2
     },
-    {
-      "race": "Sin'dorei",
-      "plus": {
-        "RM": 2,
-        "Vil": 1
-      },
-      "penal": {
-        "RePC": 1,
-        "DR": 2
-      },
-      "special": ["ASup"]
+    "special": ["VNoc", "ASup"]
+  },
+  "draenei": {
+    "plus": {
+      "Joy": 1,
+      "Fe": 2
     },
-    {
-      "race": "Goblins",
-      "plus": {
-        "Com": 2,
-        "JdM": 1
-      },
-      "penal": {
-        "Dip": 2,
-        "Fe": 1
-      },
-      "special": null
-    }
-  ],
-  "others": [
-    {
-      "race": "Vrykul",
-      "plus": {
-        "Br": 1,
-        "Fo": 1,
-        "ReF": 1
-      },
-      "penal": {
-        "Si": 2,
-        "RePC": 1
-      },
-      "special": ["Suf"]
+    "penal": {
+      "CE": 2,
+      "Si": 1
     },
-    {
-      "race": "Pandaren",
-      "plus": {
-        "Chi": 2,
-        "RePC": 1
-      },
-      "penal": {
-        "Pro": 2,
-        "Re": 1
-      },
-      "special": null
-    }
-  ]
+    "special": null
+  },
+  "hightborn": {
+    "plus": {
+      "RM": 2,
+      "Arc": 1
+    },
+    "penal": {
+      "Br": 1,
+      "DR": 2
+    },
+    "special": ["ASup"]
+  },
+  "orc": {
+    "plus": {
+      "Br": 1,
+      "CE": 2
+    },
+    "penal": {
+      "Si": 2,
+      "DA": 1
+    },
+    "special": ["Suf"]
+  },
+  "tauren": {
+    "plus": {
+      "Fo": 2,
+      "CNa": 1
+    },
+    "penal": {
+      "DA": 2,
+      "Si": 1
+    },
+    "special": ["Suf"]
+  },
+  "undead": {
+    "plus": {
+      "RePC": 2,
+      "Alq": 1
+    },
+    "penal": {
+      "Dip": 2,
+      "RdM": 1
+    },
+    "special": ["RdMiem"]
+  },
+  "belf": {
+    "plus": {
+      "RM": 2,
+      "Vil": 1
+    },
+    "penal": {
+      "RePC": 1,
+      "DR": 2
+    },
+    "special": ["ASup"]
+  },
+  "goblin": {
+    "plus": {
+      "Com": 2,
+      "JdM": 1
+    },
+    "penal": {
+      "Dip": 2,
+      "Fe": 1
+    },
+    "special": null
+  },
+
+  "vrykul": {
+    "plus": {
+      "Br": 1,
+      "Fo": 1,
+      "ReF": 1
+    },
+    "penal": {
+      "Si": 2,
+      "RePC": 1
+    },
+    "special": ["Suf"]
+  },
+  "pandaren": {
+    "plus": {
+      "Chi": 2,
+      "RePC": 1
+    },
+    "penal": {
+      "Pro": 2,
+      "Re": 1
+    },
+    "special": null
+  }
 }

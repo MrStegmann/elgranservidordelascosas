@@ -10,30 +10,12 @@ import { User } from "../entities/User";
 export class Authware {
   private readonly socket: Socket;
   private readonly protectedEvents = new Set<string>([
-    CharEnum.GET_ALL,
-    CharEnum.CREATE,
-    CharEnum.UPDATE,
-    CharEnum.DELETE,
-    ItemEnum.GET_ALL,
-    ItemEnum.CREATE,
-    ItemEnum.UPDATE,
-    ItemEnum.DELETE,
-    NpcEnum.GET_ALL,
-    NpcEnum.CREATE,
-    NpcEnum.UPDATE,
-    NpcEnum.DELETE,
-    OneshotEnum.GET_ALL,
-    OneshotEnum.CREATE,
-    OneshotEnum.UPDATE,
-    OneshotEnum.DELETE,
-    SkillEnum.GET_ALL,
-    SkillEnum.CREATE,
-    SkillEnum.UPDATE,
-    SkillEnum.DELETE,
-    SpellEnum.GET_ALL,
-    SpellEnum.CREATE,
-    SpellEnum.UPDATE,
-    SpellEnum.DELETE,
+    ...Object.values(CharEnum),
+    ...Object.values(ItemEnum),
+    ...Object.values(NpcEnum),
+    ...Object.values(OneshotEnum),
+    ...Object.values(SkillEnum),
+    ...Object.values(SpellEnum),
   ]);
 
   constructor(socket: Socket) {
@@ -55,7 +37,6 @@ export class Authware {
 
         try {
           const { token, ...rest } = data;
-
           if (!token) throw new Error("Token no proporcionado");
 
           // COMPROBAR CON EL USUARIO LA EXISTENCIA DEL TOKEN
