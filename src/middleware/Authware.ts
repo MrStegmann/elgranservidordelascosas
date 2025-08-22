@@ -6,6 +6,7 @@ import OneshotEnum from "../utils/OneshotEnum";
 import SkillEnum from "../utils/SkillEnum";
 import SpellEnum from "../utils/SpellEnum";
 import { User } from "../entities/User";
+import UserEnum from "../utils/UserEnum";
 
 export class Authware {
   private readonly socket: Socket;
@@ -16,6 +17,7 @@ export class Authware {
     ...Object.values(OneshotEnum),
     ...Object.values(SkillEnum),
     ...Object.values(SpellEnum),
+    ...Object.values(UserEnum),
   ]);
 
   constructor(socket: Socket) {
@@ -37,11 +39,17 @@ export class Authware {
 
         try {
           const { token, ...rest } = data;
-          if (!token) throw new Error("Token no proporcionado");
+          if (!token)
+            throw new Error(
+              "Eh... Jejeje... Verás... Necesitas un pase válido, sino no puedo dejarte pasar"
+            );
 
           // COMPROBAR CON EL USUARIO LA EXISTENCIA DEL TOKEN
           const user = await User.findOne({ token });
-          if (!user) throw new Error("Token no válido");
+          if (!user)
+            throw new Error(
+              "Esto... ejem... Bueno, a ver... es que no tienes un pase válido."
+            );
 
           // Puedes extender esto si deseas pasar el usuario como 3er argumento
           if (Object.keys(rest).length > 0) {

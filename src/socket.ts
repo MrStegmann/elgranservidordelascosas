@@ -8,7 +8,6 @@ import { SkillController } from "./controllers/SkillController";
 import { SpellController } from "./controllers/SpellController";
 import { UserController } from "./controllers/UserController";
 import { Authware } from "./middleware/Authware";
-import { ViewsController } from "./controllers/ViewsController";
 
 export class SocketServer {
   private readonly io: Server;
@@ -45,9 +44,6 @@ export class SocketServer {
 
       const spellController = new SpellController(socket);
       spellController.registerListeners();
-
-      const viewsController = new ViewsController(socket);
-      viewsController.registerListeners();
     });
   }
 }
