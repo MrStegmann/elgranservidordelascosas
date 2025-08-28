@@ -1,4 +1,4 @@
-import mongoose, { Schema, Document } from "mongoose";
+import mongoose, { Schema, Document, HydratedDocument, Query } from "mongoose";
 import bcrypt from "bcrypt";
 
 export interface IUser extends Document {
@@ -21,23 +21,39 @@ const userSchema = new Schema<IUser>({
   },
 });
 
-// 🔹 Middleware: hash de contraseña antes de guardar
-userSchema.pre("save", async function (next) {
-  const user = this as IUser;
-
-  if (!user.isModified("password")) return next();
+// --- Middleware para save() ---
+userSchema.pre("save", async function (this: HydratedDocument<IUser>, next) {
+  if (!this.isModified("password")) return next();
 
   try {
-    const salt = await bcrypt.genSalt(10); // puedes cambiar el "10" por más rondas
-    const hash = await bcrypt.hash(user.password, salt);
-    user.password = hash;
+    const salt = await bcrypt.genSalt(10);
+    this.password = await bcrypt.hash(this.password, salt);
     next();
   } catch (err) {
     next(err as any);
   }
 });
 
-// 🔹 Método: comparar contraseña ingresada con la guardada
+// --- Middleware para findOneAndUpdate / findByIdAndUpdate ---
+userSchema.pre(
+  ["findOneAndUpdate", "updateOne"],
+  async function (this: Query<any, any>, next) {
+    const update = this.getUpdate() as any;
+
+    if (update?.password) {
+      try {
+        const salt = await bcrypt.genSalt(10);
+        update.password = await bcrypt.hash(update.password, salt);
+        this.setUpdate(update);
+      } catch (err) {
+        return next(err as any);
+      }
+    }
+
+    next();
+  }
+);
+
 userSchema.methods.comparePassword = async function (
   candidatePassword: string
 ): Promise<boolean> {

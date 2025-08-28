@@ -95,7 +95,7 @@ export class UserController {
         throw new Error(this.userNotFound);
       }
 
-      if (await user.comparePassword(credentials.password)) {
+      if (!(await user.comparePassword(credentials.password))) {
         throw new Error(this.userPasswordWrong);
       }
       user.token = IdGenerator.generate();
