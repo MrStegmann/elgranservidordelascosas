@@ -21,14 +21,13 @@ const userSchema = new Schema<IUser>({
   },
 });
 
-// 🔹 Middleware: hash de contraseña antes de guardar
 userSchema.pre("save", async function (next) {
   const user = this as IUser;
 
   if (!user.isModified("password")) return next();
 
   try {
-    const salt = await bcrypt.genSalt(10); // puedes cambiar el "10" por más rondas
+    const salt = await bcrypt.genSalt(10);
     const hash = await bcrypt.hash(user.password, salt);
     user.password = hash;
     next();
@@ -37,11 +36,11 @@ userSchema.pre("save", async function (next) {
   }
 });
 
-// 🔹 Método: comparar contraseña ingresada con la guardada
 userSchema.methods.comparePassword = async function (
   candidatePassword: string
 ): Promise<boolean> {
-  return bcrypt.compare(candidatePassword, this.password);
+  const result = await bcrypt.compare(candidatePassword, this.password);
+  return result;
 };
 
 const User = mongoose.model<IUser>("User", userSchema);
